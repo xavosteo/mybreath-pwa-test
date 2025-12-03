@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" id="appBody" data-tier="basic">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1120" />
+  <link rel="manifest" href="/public/manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>My Breath – My Health Foundation</title>
+</head>
+
+<body>
+
+  <div class="content">
+    <h1>My Breath Test PWA</h1>
+    <p>This is a testing environment to preview the PWA installation flow.</p>
+    <button onclick="maybeShowInstallPrompt()" class="test-btn">
+      Test Install Prompt
+    </button>
+  </div>
+
+  <!-- INSTALL MODAL -->
+  <div id="installModal" class="install-modal hidden">
+    <div class="install-modal__content">
+      <h2 id="installTitle">Add My Breath to your Home Screen</h2>
+      <p id="installBody">
+        Get 1-tap access to your daily self-healing practice:<br>
+        • Opens in full screen, like a native app<br>
+        • Faster access to your breathing sessions<br>
+        • Works even with a weak connection<br>
+        • A simple anchor for your <strong>4 Axes</strong> routine
+      </p>
+
+      <button id="installPrimaryBtn">Add My Breath</button>
+      <button id="installSecondaryBtn" class="ghost">Not now</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
