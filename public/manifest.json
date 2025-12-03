@@ -1,0 +1,21 @@
+{
+  "name": "My Breath – My Health Foundation",
+  "short_name": "My Breath",
+  "description": "Your daily self-healing breathing assistant based on The 4 Axes Method.",
+  "start_url": "/index.html?pwa=1",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#0b1120",
+  "icons": [
+    {
+      "src": "/public/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/public/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
